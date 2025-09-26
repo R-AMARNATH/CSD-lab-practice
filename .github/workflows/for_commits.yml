@@ -20,5 +20,5 @@ jobs:
           run: dotnet restore
         - name: Build
           run: dotnet build --no-restore
-	      - name: build completed
-	        run: echo "project build has been completed"
+	    - name: build completed
+	      run: echo "project build has been completed"
