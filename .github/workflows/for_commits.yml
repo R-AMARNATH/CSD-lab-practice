@@ -26,3 +26,7 @@ jobs:
 
       - name: build completed
         run: echo "project build has been completed"
+
+      - name: Run unit tests
+        run: dotnet test --no-build --verbosity normal
+  
